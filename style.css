@@ -1,0 +1,183 @@
+body{
+	background-color:#F5F4EF;
+	width:60%;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+.container{
+	width:100%;
+	margin-left:30%;	
+}
+#banner{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#banner a{
+	text-decoration: none;
+	color: #000;
+}
+#banner h1{
+	font-size: 3.571em;
+    line-height: 1.2;
+    width: 60%;
+}
+#banner h1 strong{
+	font-size: 0.36em;
+    font-weight: normal;
+}
+h2{
+	color:#C74451;
+	margin:0;
+}
+#menu{
+	background: #000000;
+	height: 40px;
+    line-height: 30px;
+	border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+}
+
+li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px 0px 8px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #C74451;
+}
+.emp{
+	margin:20px;
+}
+/*---------*/
+.one{
+	padding:20px;
+	background-color:white;
+	border-radius: 10px;
+	height:25%;
+}
+.one h3 a{
+	color: black;
+	text-decoration: none;
+}
+.one .logo{
+	float:right;
+    border: 2px solid #eee;
+    margin: 25px 10px 0 0;	
+}
+.one .article{
+	float:left;
+	width: 60%;
+}
+/*--------------*/
+.two{
+	padding:20px;
+	background-color:white;
+	height:60%;
+	border-radius: 10px;
+}
+
+.two a, .one a{
+	color: #C74451;
+	text-decoration: none;
+}
+.two ul li:hover{
+	background-color:#C74451;
+	color:white;
+	text-decoration: none;
+}
+.two ul li:hover .a a{
+	color:yellow;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.two .a{
+	padding:0 10px 0 0;
+	float: right;
+	width: 78%;
+}
+.two .b{
+	left: 30px;
+	padding-top:1px;
+}
+.two ul li:hover .b a, .two ul li:hover .c a{
+	color:yellow;
+	cursor:pointer;
+	
+}
+.two .b a, .two .c a, .one a{
+	text-decoration: underline;
+}
+.two .b a:hover, .two .c a:hover, .one a:hover{
+	text-decoration: none;
+}
+
+.two .c{
+	padding:10px;
+	float: right;
+	width: 78%;
+}
+/*----------*/
+#three{
+	background-color:none;
+	height:30%;
+}
+#three .br1{
+	float: left;
+    width: 80%;
+}
+
+#three ul li:hover, .four .a a:hover, .one .article a:hover{
+	background-color:#C74451;
+	color:white;
+}
+#three .br2{
+	float: right;
+	width: 20%;
+}
+
+#three ul {
+    list-style: none;
+    margin: 0;
+}
+#three li {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 185px;
+	padding:5px 0;
+	/*border-bottom-style: inset;*/
+}
+#three i {
+    float: left;
+	padding-right:5px;
+	width:10%;
+	/*border-bottom-style: inset;*/
+}
+/*---------*/
+.four{
+	padding:20px;
+	background-color:white;
+	border-radius: 10px;
+	height:10%;
+}
+.four .a{
+	padding:10px;
+	float: left;
+	width: 30%;
+}
+.four .b{
+	padding:10px;
+	float: right;
+	width: 55%;
+}
